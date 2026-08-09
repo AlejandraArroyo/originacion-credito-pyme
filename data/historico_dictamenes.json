@@ -1,0 +1,1352 @@
+[
+  {
+    "id_dictamen": "2612d02b-9abe-4a08-82b5-22d2aa2078ba",
+    "id_solicitud": "aaf1d89d-c7ff-4917-a0dd-9a287f41ba26",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-23"
+  },
+  {
+    "id_dictamen": "3c0a8b6a-6f99-4f8c-b9ec-7391e6274ff3",
+    "id_solicitud": "f245d14a-5db4-4849-af5a-a86288ba583c",
+    "decision": "APROBADO",
+    "monto_recomendado": "14423.25",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-08"
+  },
+  {
+    "id_dictamen": "2e3331d0-3ec1-45b3-963c-eb7470eae803",
+    "id_solicitud": "4ef9d80d-a3bd-48df-993f-0abafbca6dfc",
+    "decision": "APROBADO",
+    "monto_recomendado": "430717.25",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-07-28"
+  },
+  {
+    "id_dictamen": "fc883091-baa1-4642-988a-f968e37a6786",
+    "id_solicitud": "fe63c932-737c-493e-aede-b1b548dd8794",
+    "decision": "APROBADO",
+    "monto_recomendado": "220953.18",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-06"
+  },
+  {
+    "id_dictamen": "5bd59db3-8cf0-48ea-b2ac-8f5e9115ab54",
+    "id_solicitud": "817ffb36-9ee6-446d-b51b-0147883afa0e",
+    "decision": "APROBADO",
+    "monto_recomendado": "249462.76",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-23"
+  },
+  {
+    "id_dictamen": "a6f5d282-aefa-4802-95ce-9ebbb95d929e",
+    "id_solicitud": "5529ec31-88eb-444a-9b61-49e0507a9ef6",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-12"
+  },
+  {
+    "id_dictamen": "b9e22522-a3c4-4a64-ac86-c0714db5eafc",
+    "id_solicitud": "f245d14a-5db4-4849-af5a-a86288ba583c",
+    "decision": "APROBADO",
+    "monto_recomendado": "15303.27",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-17"
+  },
+  {
+    "id_dictamen": "0b684d4a-8bad-44da-8b0d-5a93c7c4eaa2",
+    "id_solicitud": "9e7375c1-8df3-469a-a430-e742d1990d11",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-29"
+  },
+  {
+    "id_dictamen": "1dd3d642-3cea-44ec-b56b-3158c5751c1b",
+    "id_solicitud": "ececf8e1-a961-4be1-919f-ddbf2e10af82",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-30"
+  },
+  {
+    "id_dictamen": "5b840835-a4bd-4fde-9e77-1c53719d6db7",
+    "id_solicitud": "84493f23-fc3c-403b-b661-b5d002e7af9f",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "406673.74",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-23"
+  },
+  {
+    "id_dictamen": "9eec6f29-1924-4d3f-95c6-2ebdfecbfd0d",
+    "id_solicitud": "6839ae35-b725-49ce-b509-b77820e7cc03",
+    "decision": "APROBADO",
+    "monto_recomendado": "40589.14",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-18"
+  },
+  {
+    "id_dictamen": "95bfe579-d962-45ee-b15e-baeddd296ee3",
+    "id_solicitud": "403ba0c7-a93c-430c-bae3-bc30b54d0448",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "53668.18",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-23"
+  },
+  {
+    "id_dictamen": "2a090990-00b3-4f66-bd28-3b6ef74818c5",
+    "id_solicitud": "34052ee4-9717-47f1-bf82-7ac5c981ac2d",
+    "decision": "APROBADO",
+    "monto_recomendado": "361262.50",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-07-08"
+  },
+  {
+    "id_dictamen": "21c2502e-1e69-4ee7-a243-83ff69b98cc2",
+    "id_solicitud": "920f65d6-c864-474e-bcfb-42b83b6ca347",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-06"
+  },
+  {
+    "id_dictamen": "a91ca2b1-a263-4844-9961-9f129d12d02b",
+    "id_solicitud": "f5e7532d-65b2-44e8-88fd-4a56a9a2a12a",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-05"
+  },
+  {
+    "id_dictamen": "1c58a9fe-f901-4cde-afcb-6d384d0c5b26",
+    "id_solicitud": "82a3ce87-fc73-4b8b-8f09-dcf678200de7",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-26"
+  },
+  {
+    "id_dictamen": "05bd8e02-bb8b-4913-91a8-7dc9a91b9cfc",
+    "id_solicitud": "a525ee80-3d98-48ca-b16a-35c689f2a829",
+    "decision": "APROBADO",
+    "monto_recomendado": "289060.18",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-06-30"
+  },
+  {
+    "id_dictamen": "7f3c556a-eadc-4ead-b6e9-c9c75d422977",
+    "id_solicitud": "1209071f-dc52-4c4b-a177-447ab9889449",
+    "decision": "APROBADO",
+    "monto_recomendado": "19546.10",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-23"
+  },
+  {
+    "id_dictamen": "413b31f7-8de2-4953-84af-f0e0c82c56dc",
+    "id_solicitud": "21f3f823-939c-477e-89d8-82f0ff898d9e",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-16"
+  },
+  {
+    "id_dictamen": "46af3a86-7108-431d-a840-675cf2009f29",
+    "id_solicitud": "c71a5677-6ae4-49e3-a7af-9bfa4de38017",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "26140.19",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-07-02"
+  },
+  {
+    "id_dictamen": "4b93d3b2-242d-456f-8c8a-e72262896836",
+    "id_solicitud": "9ab5e595-acd5-4bba-b927-20e4ab133347",
+    "decision": "APROBADO",
+    "monto_recomendado": "147208.14",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-06"
+  },
+  {
+    "id_dictamen": "f3d79088-ffe1-427b-b351-5e396b36e4f0",
+    "id_solicitud": "ececf8e1-a961-4be1-919f-ddbf2e10af82",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-17"
+  },
+  {
+    "id_dictamen": "b6a75fa7-1a60-4975-935a-cc7a2ed1b92c",
+    "id_solicitud": "12837213-9791-4356-b29b-daf5e8246f3f",
+    "decision": "APROBADO",
+    "monto_recomendado": "55922.12",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-11"
+  },
+  {
+    "id_dictamen": "1ef42470-c3eb-44a0-92fc-9f451b922bc7",
+    "id_solicitud": "c8803fa0-35b7-42e6-8c40-31366ae9da79",
+    "decision": "APROBADO",
+    "monto_recomendado": "219516.46",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-01-01"
+  },
+  {
+    "id_dictamen": "78a54915-7943-4899-b762-062da3ce6847",
+    "id_solicitud": "df49e899-ad2c-411a-ab6d-86b97564d68f",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "48332.48",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-28"
+  },
+  {
+    "id_dictamen": "fe5a750f-5211-4853-b5ff-1d3152160a06",
+    "id_solicitud": "876bb37e-addd-4408-b343-8ab9a587184c",
+    "decision": "APROBADO",
+    "monto_recomendado": "89618.34",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-04-20"
+  },
+  {
+    "id_dictamen": "8d3fcc1d-bc5c-4c1d-889d-82e74666b7b6",
+    "id_solicitud": "8ea2a546-9ea8-4d04-884c-fcec00e43b5a",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-24"
+  },
+  {
+    "id_dictamen": "1e74bfc4-e99b-46f3-a4ba-2958e74e08c6",
+    "id_solicitud": "763cf933-a466-4352-bf09-4a792309e219",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-28"
+  },
+  {
+    "id_dictamen": "972c6520-3438-4f5b-af8e-ca1d1b26eb22",
+    "id_solicitud": "511a649d-6084-4004-93b9-e9b6454aace0",
+    "decision": "APROBADO",
+    "monto_recomendado": "248558.11",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-12"
+  },
+  {
+    "id_dictamen": "2baf7dbc-5a6e-4bf1-8cdb-8efc119dcf63",
+    "id_solicitud": "7b385329-8f4b-417b-a3d5-e508c02c0a47",
+    "decision": "APROBADO",
+    "monto_recomendado": "14807.54",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-01"
+  },
+  {
+    "id_dictamen": "2343cdb7-6a48-41ff-a5e6-df27c067517d",
+    "id_solicitud": "c216b8fe-396d-4fb3-9881-34c5a758b8e0",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "44965.53",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-16"
+  },
+  {
+    "id_dictamen": "efa6855c-d2b0-4870-9eec-2983775afc17",
+    "id_solicitud": "d5a53bc6-698a-48b7-90d3-5a212f65234e",
+    "decision": "APROBADO",
+    "monto_recomendado": "28961.87",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-04-06"
+  },
+  {
+    "id_dictamen": "40f9d589-064b-4dd2-8eca-a3f33660b858",
+    "id_solicitud": "8867759f-6291-402c-8384-82986b4d44a1",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-14"
+  },
+  {
+    "id_dictamen": "3de93e7d-7f1b-46db-ad85-5c6895b3d14d",
+    "id_solicitud": "60336db0-f797-4f03-9d8c-8a5adf5ed7ea",
+    "decision": "APROBADO",
+    "monto_recomendado": "165776.58",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-24"
+  },
+  {
+    "id_dictamen": "d20c2904-11b6-444f-86fc-202b7e064d90",
+    "id_solicitud": "a3dfe8f3-ba89-4b5c-af25-8b0b81947e4e",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-03"
+  },
+  {
+    "id_dictamen": "a5c6ed2f-a78a-401e-9609-f5b214a5bc9a",
+    "id_solicitud": "947c6858-243d-489c-aada-15cfcccaf3a4",
+    "decision": "APROBADO",
+    "monto_recomendado": "79313.74",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-03"
+  },
+  {
+    "id_dictamen": "dfd6afe5-2471-47db-a4e2-9618c1bb86d0",
+    "id_solicitud": "34052ee4-9717-47f1-bf82-7ac5c981ac2d",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-27"
+  },
+  {
+    "id_dictamen": "2724067c-6d64-4593-811b-8afa9e3315df",
+    "id_solicitud": "4f96c5d8-1082-4aa3-ac51-b29b5034623f",
+    "decision": "APROBADO",
+    "monto_recomendado": "99545.56",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-27"
+  },
+  {
+    "id_dictamen": "01d911c9-e1c9-48d7-8ab6-cd54f7764476",
+    "id_solicitud": "c8803fa0-35b7-42e6-8c40-31366ae9da79",
+    "decision": "APROBADO",
+    "monto_recomendado": "415945.59",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-28"
+  },
+  {
+    "id_dictamen": "e82ff763-0b8c-47d6-94f2-5910d22eea51",
+    "id_solicitud": "21f3f823-939c-477e-89d8-82f0ff898d9e",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-23"
+  },
+  {
+    "id_dictamen": "e1fea5ce-f43f-422d-874e-2d933bd13a77",
+    "id_solicitud": "8c78464d-5e89-4acf-8b7f-11099a230f72",
+    "decision": "APROBADO",
+    "monto_recomendado": "161219.64",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-23"
+  },
+  {
+    "id_dictamen": "d4bbdc9f-9cc2-44e0-9033-4e22a54f5a57",
+    "id_solicitud": "7fc826b5-4376-4b68-993f-00091dad2218",
+    "decision": "APROBADO",
+    "monto_recomendado": "212503.84",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-07"
+  },
+  {
+    "id_dictamen": "f4354f0d-ce8a-4d08-a1e6-5929bb02dc83",
+    "id_solicitud": "88507c43-a650-4409-a530-d0ffacb87189",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-26"
+  },
+  {
+    "id_dictamen": "854b21fe-315a-4819-ba03-814089429f94",
+    "id_solicitud": "6ec80e11-d2c3-42c2-80c0-3197a463184f",
+    "decision": "APROBADO",
+    "monto_recomendado": "298891.22",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-20"
+  },
+  {
+    "id_dictamen": "52a1cc91-410b-4a1d-8196-6aac02a92bff",
+    "id_solicitud": "c024aec1-39cf-4045-87ad-1a44442f277f",
+    "decision": "APROBADO",
+    "monto_recomendado": "112629.90",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-05-22"
+  },
+  {
+    "id_dictamen": "fea28856-9db4-4457-a972-5861e19674ad",
+    "id_solicitud": "8af30ba5-36e2-4e27-a3f5-ac73ef42be9b",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-14"
+  },
+  {
+    "id_dictamen": "f880f1fa-50fe-4c31-9d97-374e202e6680",
+    "id_solicitud": "75fe8245-516b-44e8-acbc-6efbf993711b",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-08-06"
+  },
+  {
+    "id_dictamen": "b7680e59-2f2d-4317-a364-5e2bae00a210",
+    "id_solicitud": "c2c60ff3-ba23-49d1-b0f1-6455acd34599",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-13"
+  },
+  {
+    "id_dictamen": "3a2de0e9-32d7-466d-8989-15463aca1a9b",
+    "id_solicitud": "1e5a1151-e7ef-4b60-af40-14b032baacd4",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-11"
+  },
+  {
+    "id_dictamen": "13a598cf-699c-4547-9d2a-50965b8d0fe7",
+    "id_solicitud": "b72ee214-6366-4c8b-a6c4-49edc6465527",
+    "decision": "APROBADO",
+    "monto_recomendado": "129064.11",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-29"
+  },
+  {
+    "id_dictamen": "c15430b6-4d07-4726-80b0-fbb0f98355f2",
+    "id_solicitud": "250338be-b8e2-4546-85b2-6354358a55b3",
+    "decision": "APROBADO",
+    "monto_recomendado": "301025.59",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-04"
+  },
+  {
+    "id_dictamen": "4af3217a-b3bf-402c-b309-2fcbe2a37f2e",
+    "id_solicitud": "60be7b17-0ee1-4bd4-9fa0-d81b3663dff3",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "59539.76",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-20"
+  },
+  {
+    "id_dictamen": "0ee01b35-da0b-4f57-8e30-e53511fcc09c",
+    "id_solicitud": "927c2dce-392e-4994-b1d1-7e1a79014e11",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-17"
+  },
+  {
+    "id_dictamen": "2e13eaf1-9472-4479-8a55-8b6dd415af01",
+    "id_solicitud": "9a035f7e-792c-49ed-a7a0-85af59d0efbb",
+    "decision": "APROBADO",
+    "monto_recomendado": "39221.66",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-01-16"
+  },
+  {
+    "id_dictamen": "58e1ba89-8f3d-423c-809d-656cd647e2f2",
+    "id_solicitud": "52a01127-711d-4d4b-8666-00431b221080",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "185237.94",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-16"
+  },
+  {
+    "id_dictamen": "4cca30e1-90cc-44a6-afe0-6a96ed1aa7b3",
+    "id_solicitud": "a0dd1504-41c3-4517-b1ed-387d10f50547",
+    "decision": "APROBADO",
+    "monto_recomendado": "189830.64",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-07"
+  },
+  {
+    "id_dictamen": "af567b2d-f4f2-4998-9550-491c52e9acef",
+    "id_solicitud": "4eb4cf9e-9acd-4bc5-ac9a-46c8a069c491",
+    "decision": "APROBADO",
+    "monto_recomendado": "24235.47",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-26"
+  },
+  {
+    "id_dictamen": "47c90a71-a4a6-4053-a877-34914fd16aa3",
+    "id_solicitud": "bc28eece-004b-4c78-bc1f-1fd455a55e37",
+    "decision": "APROBADO",
+    "monto_recomendado": "83389.65",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-16"
+  },
+  {
+    "id_dictamen": "e5fdbaa3-2f3f-4df8-9fdb-b7ccd7ff9b5e",
+    "id_solicitud": "876bb37e-addd-4408-b343-8ab9a587184c",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-28"
+  },
+  {
+    "id_dictamen": "7311f29d-7ab5-42fb-bf30-6f71a2b836b9",
+    "id_solicitud": "a5d4e72b-ac65-4dc6-b36f-71feb34efcb4",
+    "decision": "APROBADO",
+    "monto_recomendado": "36763.68",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-30"
+  },
+  {
+    "id_dictamen": "14e103c8-5c02-4a77-bd53-5e176c56bccb",
+    "id_solicitud": "bdf21130-8819-449a-9c9d-cb0a294a8fba",
+    "decision": "APROBADO",
+    "monto_recomendado": "28436.72",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-09"
+  },
+  {
+    "id_dictamen": "f42c1907-f179-44ae-a43f-0246680f4279",
+    "id_solicitud": "7b34fe1f-d149-41b2-8ba0-7700b706b7f2",
+    "decision": "APROBADO",
+    "monto_recomendado": "53680.67",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-05-08"
+  },
+  {
+    "id_dictamen": "1f809113-d153-4ceb-a328-de81a295e6d2",
+    "id_solicitud": "4d81c15c-7b42-4283-bef2-3e08337d7c37",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "165521.16",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-04-06"
+  },
+  {
+    "id_dictamen": "4bb2201b-1a9a-48f3-bcc1-b334e13388d0",
+    "id_solicitud": "835f4a82-a08b-413f-a012-bc8edb4e5231",
+    "decision": "APROBADO",
+    "monto_recomendado": "136271.79",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-17"
+  },
+  {
+    "id_dictamen": "fcb9bf45-f04a-44f6-8640-62037174d067",
+    "id_solicitud": "3d26a8cd-d11a-464e-ac20-344611c2680d",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "161560.82",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-09"
+  },
+  {
+    "id_dictamen": "2d462514-fbc8-4148-8af4-8f7210f273cc",
+    "id_solicitud": "b8c0604b-1631-4d1f-a845-858f3ddaaa4b",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-20"
+  },
+  {
+    "id_dictamen": "20294e51-382a-4bcb-a238-ac8a4b408039",
+    "id_solicitud": "a236f38f-3500-44df-b7c0-952dba5debb0",
+    "decision": "APROBADO",
+    "monto_recomendado": "27174.03",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-12"
+  },
+  {
+    "id_dictamen": "1181055a-7066-40a2-927b-7cdcd9eb1153",
+    "id_solicitud": "937d80e9-97e5-4c74-b0d1-c4c9f8a3eefa",
+    "decision": "APROBADO",
+    "monto_recomendado": "315543.68",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-30"
+  },
+  {
+    "id_dictamen": "79b037f4-b178-484c-a3d8-c5bfd6480474",
+    "id_solicitud": "a236f38f-3500-44df-b7c0-952dba5debb0",
+    "decision": "APROBADO",
+    "monto_recomendado": "10122.49",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-05-01"
+  },
+  {
+    "id_dictamen": "6527f227-84c4-4cf6-8a5c-7d74ace2f05e",
+    "id_solicitud": "7c36f249-d8b8-4b2b-8a15-1c9b37573e53",
+    "decision": "APROBADO",
+    "monto_recomendado": "97690.86",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-02"
+  },
+  {
+    "id_dictamen": "a3dda791-961d-4299-a208-680858506474",
+    "id_solicitud": "362a307b-8820-48f0-8c16-cf71e2b07051",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-24"
+  },
+  {
+    "id_dictamen": "0458ff22-522d-404b-816d-0d30a1358048",
+    "id_solicitud": "8af30ba5-36e2-4e27-a3f5-ac73ef42be9b",
+    "decision": "APROBADO",
+    "monto_recomendado": "43339.16",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-31"
+  },
+  {
+    "id_dictamen": "2bf59cb9-23ea-4cd2-9725-a3137529b80f",
+    "id_solicitud": "b72ee214-6366-4c8b-a6c4-49edc6465527",
+    "decision": "APROBADO",
+    "monto_recomendado": "37243.47",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-13"
+  },
+  {
+    "id_dictamen": "fae3872d-e2e6-41ba-9ee7-0b8a41bd63aa",
+    "id_solicitud": "6bd7cef0-b195-4542-909f-eba8fad00689",
+    "decision": "APROBADO",
+    "monto_recomendado": "153427.83",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-05-22"
+  },
+  {
+    "id_dictamen": "8e75e475-528c-451b-9919-837afa8fe444",
+    "id_solicitud": "c8803fa0-35b7-42e6-8c40-31366ae9da79",
+    "decision": "APROBADO",
+    "monto_recomendado": "102466.05",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-09"
+  },
+  {
+    "id_dictamen": "436f4a54-21a4-4732-8e04-ba8cebd77412",
+    "id_solicitud": "a7bc4b46-062c-4cc1-9250-edbd6981b0c9",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-01"
+  },
+  {
+    "id_dictamen": "7465d457-cb4b-47a6-b4cd-02a350381544",
+    "id_solicitud": "a82d1475-855f-4e95-8786-1c774d59b1e9",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "257569.75",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-14"
+  },
+  {
+    "id_dictamen": "f473ac24-8dab-4139-ae4c-8a42e319e56e",
+    "id_solicitud": "7c36f249-d8b8-4b2b-8a15-1c9b37573e53",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-15"
+  },
+  {
+    "id_dictamen": "fd4a3df3-b9dd-465d-ad6a-928823ed4016",
+    "id_solicitud": "84493f23-fc3c-403b-b661-b5d002e7af9f",
+    "decision": "APROBADO",
+    "monto_recomendado": "177050.03",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-27"
+  },
+  {
+    "id_dictamen": "e4011526-d1ba-40e0-ac5f-af099c1c2c59",
+    "id_solicitud": "2f645908-5f72-430e-ac33-5cfb1e528690",
+    "decision": "APROBADO",
+    "monto_recomendado": "166795.46",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-27"
+  },
+  {
+    "id_dictamen": "03b91785-6cec-49f1-bd01-6306bd717dc6",
+    "id_solicitud": "6bfa13a2-774b-4e68-9d52-22479ee8492a",
+    "decision": "APROBADO",
+    "monto_recomendado": "43104.19",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-06"
+  },
+  {
+    "id_dictamen": "8d4dfc1d-a93d-4cea-8297-9f4a5732f84d",
+    "id_solicitud": "39e405f3-8a50-455c-be3b-921f273faf71",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-01"
+  },
+  {
+    "id_dictamen": "5b5e1fb1-d119-4d68-81e8-8cd47e54602c",
+    "id_solicitud": "4d81c15c-7b42-4283-bef2-3e08337d7c37",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "134199.99",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-11"
+  },
+  {
+    "id_dictamen": "1fe92bc2-a63a-4d23-8d22-f6061e93c683",
+    "id_solicitud": "0adc366b-940f-446b-8c0d-182a0a0482dd",
+    "decision": "APROBADO",
+    "monto_recomendado": "78947.82",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-20"
+  },
+  {
+    "id_dictamen": "219cddf0-bd26-47be-a1ed-2c463fb6c2f0",
+    "id_solicitud": "73b411bf-076a-4f96-a7e6-9f107d722ce3",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-19"
+  },
+  {
+    "id_dictamen": "56aecf0a-fdda-453d-a5d8-3f1df8b5a547",
+    "id_solicitud": "6bfa13a2-774b-4e68-9d52-22479ee8492a",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "32999.84",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-11"
+  },
+  {
+    "id_dictamen": "694b7f47-9f5d-4ccb-b66e-922f35d1abb2",
+    "id_solicitud": "7b47918f-b0d2-40a9-a1cc-145597e5dc3a",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-23"
+  },
+  {
+    "id_dictamen": "4c59cd2f-28e2-40ca-a2e0-0884ea530260",
+    "id_solicitud": "a2e15684-9668-4b48-96af-73f4cac382c6",
+    "decision": "APROBADO",
+    "monto_recomendado": "35356.51",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-07-17"
+  },
+  {
+    "id_dictamen": "543c4c8d-33fe-433a-85e7-9845714dd167",
+    "id_solicitud": "4dbe03d3-b92d-465d-89f3-65884b19aa05",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-12"
+  },
+  {
+    "id_dictamen": "749e5df7-b94d-4b7c-a566-12f4930e356d",
+    "id_solicitud": "994ed445-40a1-41f7-be80-02b44fccb85d",
+    "decision": "APROBADO",
+    "monto_recomendado": "209191.15",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-17"
+  },
+  {
+    "id_dictamen": "3350a4df-3438-4874-b6a8-b91d037f6a54",
+    "id_solicitud": "60336db0-f797-4f03-9d8c-8a5adf5ed7ea",
+    "decision": "APROBADO",
+    "monto_recomendado": "109421.08",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-07-26"
+  },
+  {
+    "id_dictamen": "9533cde1-0913-4d6a-a299-579bddce2fd8",
+    "id_solicitud": "4add850a-dea3-47b2-aa21-d01700fa3c78",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-04"
+  },
+  {
+    "id_dictamen": "f2847da2-c454-4a8e-82c7-19fdc74db98b",
+    "id_solicitud": "bc28eece-004b-4c78-bc1f-1fd455a55e37",
+    "decision": "APROBADO",
+    "monto_recomendado": "37859.11",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-04-02"
+  },
+  {
+    "id_dictamen": "6d4999e2-66c6-4751-bfad-59bf81de1159",
+    "id_solicitud": "1454f1c7-dc7f-464c-a83b-cf224db06523",
+    "decision": "APROBADO",
+    "monto_recomendado": "54421.94",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-14"
+  },
+  {
+    "id_dictamen": "207c3733-3714-4f82-aefd-78e8655fb2e9",
+    "id_solicitud": "e7425b72-87b7-4772-aaf5-73b6bb467291",
+    "decision": "APROBADO",
+    "monto_recomendado": "428754.64",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-05"
+  },
+  {
+    "id_dictamen": "49bd7328-5f0e-4e00-84bf-7f042b419169",
+    "id_solicitud": "c8dd8c42-cdf8-4a3d-868e-2517d5629b2e",
+    "decision": "APROBADO",
+    "monto_recomendado": "392175.95",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-01-16"
+  },
+  {
+    "id_dictamen": "a54ebb1c-aa1e-418f-8f07-4be466c74ed2",
+    "id_solicitud": "fe3fe77e-587c-4400-99db-00bba29c2f27",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-20"
+  },
+  {
+    "id_dictamen": "18bb6c5a-3043-44c5-83ce-a51250f9ec74",
+    "id_solicitud": "f7ced7fe-a7ab-4fdd-8c20-4524d279787a",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-11"
+  },
+  {
+    "id_dictamen": "9e8df73e-c459-419e-a724-e70ec97d6320",
+    "id_solicitud": "4eb4cf9e-9acd-4bc5-ac9a-46c8a069c491",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "36748.86",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-20"
+  },
+  {
+    "id_dictamen": "ad10b911-8a82-43cc-958b-2cac369ca263",
+    "id_solicitud": "876bb37e-addd-4408-b343-8ab9a587184c",
+    "decision": "APROBADO",
+    "monto_recomendado": "29787.60",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-02"
+  },
+  {
+    "id_dictamen": "972ff30f-962d-4a82-9679-98dfc0f3bb73",
+    "id_solicitud": "b21320d5-5525-4395-9bc1-22c52b521364",
+    "decision": "APROBADO",
+    "monto_recomendado": "52649.68",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-05-27"
+  },
+  {
+    "id_dictamen": "c6e4e646-6c4b-40b9-9493-125b0e355738",
+    "id_solicitud": "51e059bd-e905-4b5b-b5e3-a22952fe433b",
+    "decision": "APROBADO",
+    "monto_recomendado": "95421.65",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-20"
+  },
+  {
+    "id_dictamen": "4fa9eb71-b886-4bf5-87c9-fdb666a36504",
+    "id_solicitud": "7fc826b5-4376-4b68-993f-00091dad2218",
+    "decision": "APROBADO",
+    "monto_recomendado": "302852.95",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-02-08"
+  },
+  {
+    "id_dictamen": "ff82ba7c-b041-4510-83ef-067641a6e781",
+    "id_solicitud": "29b94454-b683-45fe-bd81-a661d7706894",
+    "decision": "APROBADO",
+    "monto_recomendado": "160657.90",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-04-16"
+  },
+  {
+    "id_dictamen": "a1c2433a-608f-420b-9362-0170a2a2fc14",
+    "id_solicitud": "79db3696-d77a-4010-8d06-49d83dc93b34",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "19590.15",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-18"
+  },
+  {
+    "id_dictamen": "af09b61a-2b5e-4c3c-8188-fdf09d6fb405",
+    "id_solicitud": "3aebf1fd-954c-4117-a15c-701893956421",
+    "decision": "APROBADO",
+    "monto_recomendado": "26913.59",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-08"
+  },
+  {
+    "id_dictamen": "fd94057e-0858-4f18-9f6c-be21a83361a8",
+    "id_solicitud": "4ef9d80d-a3bd-48df-993f-0abafbca6dfc",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-20"
+  },
+  {
+    "id_dictamen": "1199b8b7-ee80-4455-87b9-c400c7d9d2c7",
+    "id_solicitud": "174c5b51-afe7-4368-a774-d6a4ce915b61",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-09"
+  },
+  {
+    "id_dictamen": "9a870808-8c8f-4e31-a5d7-7e0c4f764817",
+    "id_solicitud": "960bc9b2-f458-4fa7-951c-766554c0a6bf",
+    "decision": "APROBADO",
+    "monto_recomendado": "54606.80",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-08"
+  },
+  {
+    "id_dictamen": "1f53b1c9-1146-43e8-b974-220a4f948d0f",
+    "id_solicitud": "835f4a82-a08b-413f-a012-bc8edb4e5231",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "50613.04",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-16"
+  },
+  {
+    "id_dictamen": "63a659f1-22b0-4a8e-8c8f-fec40f772c97",
+    "id_solicitud": "a2e15684-9668-4b48-96af-73f4cac382c6",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-26"
+  },
+  {
+    "id_dictamen": "f5ba8bea-f965-466c-a994-9b5cd25f2ea5",
+    "id_solicitud": "a5d4e72b-ac65-4dc6-b36f-71feb34efcb4",
+    "decision": "APROBADO",
+    "monto_recomendado": "133186.73",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-02-26"
+  },
+  {
+    "id_dictamen": "a0eefee7-dc85-46a7-92d8-878f88eaa1e7",
+    "id_solicitud": "1b780078-680d-4d2f-9b2f-02573f3abeee",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-08-03"
+  },
+  {
+    "id_dictamen": "4a9d17c4-5110-40ee-aeae-013d1e71c0cf",
+    "id_solicitud": "36641fb7-a2f0-4ffc-9955-01b7a7f9e3ce",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "96289.18",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-07-08"
+  },
+  {
+    "id_dictamen": "f06a67fe-00e8-4aee-9b8b-aa1c67fb9088",
+    "id_solicitud": "947c6858-243d-489c-aada-15cfcccaf3a4",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-30"
+  },
+  {
+    "id_dictamen": "88e4ce53-6a91-4cea-8689-e8e7ba8e43c3",
+    "id_solicitud": "9dd51604-f114-4d12-ab10-d7e302732518",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-06"
+  },
+  {
+    "id_dictamen": "41799c9f-f1f8-439c-8777-9d92fae6ce4b",
+    "id_solicitud": "1e5a1151-e7ef-4b60-af40-14b032baacd4",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-19"
+  },
+  {
+    "id_dictamen": "38dbec4c-e3a3-4fd7-91fa-30b6be65a93f",
+    "id_solicitud": "f20ad412-99f4-49fe-bbda-7e60613dc627",
+    "decision": "APROBADO",
+    "monto_recomendado": "28602.23",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-02-26"
+  },
+  {
+    "id_dictamen": "d774bf91-893f-4cd7-aada-170204ea5bf0",
+    "id_solicitud": "79db3696-d77a-4010-8d06-49d83dc93b34",
+    "decision": "APROBADO",
+    "monto_recomendado": "10107.49",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-02-03"
+  },
+  {
+    "id_dictamen": "d951fd24-b588-4014-bfa2-7b01888be80c",
+    "id_solicitud": "7b06f408-6295-449f-9e7d-e3f3d37e4bbb",
+    "decision": "APROBADO",
+    "monto_recomendado": "271367.01",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-02-07"
+  },
+  {
+    "id_dictamen": "9b0229c2-99f2-4b1c-8a8f-26ff38d2abcc",
+    "id_solicitud": "c599669b-8ca9-4c6a-8766-a18705e1a651",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-08-05"
+  },
+  {
+    "id_dictamen": "4f5880ea-f1e5-4ff1-9ff0-72b5e3e96e5d",
+    "id_solicitud": "d4ede5cd-69d3-40f4-b558-fdf65ef4746b",
+    "decision": "APROBADO",
+    "monto_recomendado": "273343.61",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-19"
+  },
+  {
+    "id_dictamen": "6330e936-749b-4224-af71-ac0855d541b2",
+    "id_solicitud": "44cf7c73-2515-41bf-9efd-a18f60afb0b7",
+    "decision": "APROBADO",
+    "monto_recomendado": "148786.76",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-02-10"
+  },
+  {
+    "id_dictamen": "faa3c886-8976-4136-a284-8f3b43ae755e",
+    "id_solicitud": "1009a55f-8a2a-422e-9d27-928a60b46ffd",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-05"
+  },
+  {
+    "id_dictamen": "d0ef0599-8c3e-49fe-b86a-895388152b8f",
+    "id_solicitud": "36641fb7-a2f0-4ffc-9955-01b7a7f9e3ce",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-24"
+  },
+  {
+    "id_dictamen": "d1d8759a-a8a7-4fdc-8789-d88572cac2ab",
+    "id_solicitud": "7b3006ba-e420-420a-8f6d-c3329193ea20",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-27"
+  },
+  {
+    "id_dictamen": "5ecb09da-9403-4eda-a722-cb4e98c9a6d1",
+    "id_solicitud": "36641fb7-a2f0-4ffc-9955-01b7a7f9e3ce",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-20"
+  },
+  {
+    "id_dictamen": "2b71337e-6cd1-46c9-96a3-df32ede94857",
+    "id_solicitud": "4a1807c0-2d36-47f2-9875-651255f8a62d",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-15"
+  },
+  {
+    "id_dictamen": "ae460d15-999b-42a1-a035-c3d585bc7d41",
+    "id_solicitud": "a0dd1504-41c3-4517-b1ed-387d10f50547",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-11"
+  },
+  {
+    "id_dictamen": "9c2d9ca9-8c5b-4b6b-8f26-e0b08ba6167f",
+    "id_solicitud": "a82d1475-855f-4e95-8786-1c774d59b1e9",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "317970.96",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-03-23"
+  },
+  {
+    "id_dictamen": "f3ef5a06-d802-4500-b4b0-5fb2df136455",
+    "id_solicitud": "a326df90-1109-43bd-91b1-f291530e980b",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "77057.08",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-05-08"
+  },
+  {
+    "id_dictamen": "070efea9-09de-455f-8579-fde88ad816ad",
+    "id_solicitud": "e1067441-20e3-4b39-833e-220430c40ebf",
+    "decision": "APROBADO",
+    "monto_recomendado": "48125.25",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-12"
+  },
+  {
+    "id_dictamen": "5c4aa56c-a91e-4721-b872-cb19ed50120d",
+    "id_solicitud": "f6f8646f-3df2-4aaf-9a1c-7a793044301f",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-21"
+  },
+  {
+    "id_dictamen": "0e0d61b3-9003-4005-b45d-31f4253b17fb",
+    "id_solicitud": "3d26a8cd-d11a-464e-ac20-344611c2680d",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-03"
+  },
+  {
+    "id_dictamen": "ad079767-ae83-493d-b0fc-6fd4f59ff24d",
+    "id_solicitud": "9ab5e595-acd5-4bba-b927-20e4ab133347",
+    "decision": "APROBADO",
+    "monto_recomendado": "134901.78",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-01-28"
+  },
+  {
+    "id_dictamen": "bf2f4840-041a-4b24-8c88-3c4663f3e39b",
+    "id_solicitud": "1454f1c7-dc7f-464c-a83b-cf224db06523",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-04-23"
+  },
+  {
+    "id_dictamen": "b41a65c6-5ff7-40d5-b544-fe37ca318640",
+    "id_solicitud": "f5e7532d-65b2-44e8-88fd-4a56a9a2a12a",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-07"
+  },
+  {
+    "id_dictamen": "c37eac94-8351-4257-8826-db1f0a0748aa",
+    "id_solicitud": "920f65d6-c864-474e-bcfb-42b83b6ca347",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "224169.24",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-21"
+  },
+  {
+    "id_dictamen": "c69265cd-6286-4484-95bf-8955914fa909",
+    "id_solicitud": "8867759f-6291-402c-8384-82986b4d44a1",
+    "decision": "ESCALADO_A_COMITE",
+    "monto_recomendado": "381539.34",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-01-19"
+  },
+  {
+    "id_dictamen": "baa9d448-605f-4dae-b6b8-98c7d7f02972",
+    "id_solicitud": "403ba0c7-a93c-430c-bae3-bc30b54d0448",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-06"
+  },
+  {
+    "id_dictamen": "97b5eed7-a7fb-43ec-a4e5-ad87c9e593cd",
+    "id_solicitud": "c8dd8c42-cdf8-4a3d-868e-2517d5629b2e",
+    "decision": "APROBADO",
+    "monto_recomendado": "45275.19",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-02-11"
+  },
+  {
+    "id_dictamen": "a43bf220-5d6a-4360-938c-f85a796a5b73",
+    "id_solicitud": "9e7375c1-8df3-469a-a430-e742d1990d11",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-03-28"
+  },
+  {
+    "id_dictamen": "43d0eb06-f0cf-4307-b86b-5d6aa47d25ae",
+    "id_solicitud": "7b3006ba-e420-420a-8f6d-c3329193ea20",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-30"
+  },
+  {
+    "id_dictamen": "105f83f9-40e9-4f0d-a053-bd4cd1340e68",
+    "id_solicitud": "c71a5677-6ae4-49e3-a7af-9bfa4de38017",
+    "decision": "APROBADO",
+    "monto_recomendado": "30987.66",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-01-26"
+  },
+  {
+    "id_dictamen": "3c182650-8bce-4b11-9d98-23e91b0896e3",
+    "id_solicitud": "1e5a1151-e7ef-4b60-af40-14b032baacd4",
+    "decision": "APROBADO",
+    "monto_recomendado": "154221.85",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-07-06"
+  },
+  {
+    "id_dictamen": "632d7bc0-7fb9-4a5e-8adf-77afa8c9d4cf",
+    "id_solicitud": "e1243fd8-118f-465b-b1c8-65a76c7a06be",
+    "decision": "APROBADO",
+    "monto_recomendado": "143624.28",
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-04-11"
+  },
+  {
+    "id_dictamen": "097c43d4-9049-4188-9946-f53b39f63c91",
+    "id_solicitud": "f20ad412-99f4-49fe-bbda-7e60613dc627",
+    "decision": "RECHAZADO",
+    "monto_recomendado": null,
+    "nivel_riesgo": "BAJO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-01-14"
+  },
+  {
+    "id_dictamen": "9b7ee5b6-57d4-4331-819e-c9e588a33eb3",
+    "id_solicitud": "c216b8fe-396d-4fb3-9881-34c5a758b8e0",
+    "decision": "APROBADO",
+    "monto_recomendado": "25144.32",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-05-03"
+  },
+  {
+    "id_dictamen": "5e6fb380-6a67-4987-9015-5c577aabd6b4",
+    "id_solicitud": "d0e76415-eee5-4cd3-b4ff-a6b896093fee",
+    "decision": "APROBADO",
+    "monto_recomendado": "111406.96",
+    "nivel_riesgo": "ALTO",
+    "requiere_autorizacion_humana": true,
+    "fecha_dictamen": "2025-01-21"
+  },
+  {
+    "id_dictamen": "3d2f05c6-087b-4d93-8928-40653ec7505f",
+    "id_solicitud": "f7fc2155-5d6c-4047-a7eb-578a2e864e85",
+    "decision": "APROBADO",
+    "monto_recomendado": "136721.11",
+    "nivel_riesgo": "MEDIO",
+    "requiere_autorizacion_humana": false,
+    "fecha_dictamen": "2025-06-19"
+  }
+]

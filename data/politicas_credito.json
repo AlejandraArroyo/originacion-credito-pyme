@@ -1,0 +1,211 @@
+{
+  "version": "2.0",
+  "moneda": "GTQ",
+  "politicas": [
+    {
+      "id": "POL-1.2",
+      "seccion": "1.2 Elegibilidad del solicitante",
+      "categoria": "elegibilidad",
+      "texto": "El solicitante debera acreditar un minimo de 24 meses continuos de operacion formal del negocio.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-1.5",
+      "seccion": "1.5 Elegibilidad del solicitante",
+      "categoria": "elegibilidad",
+      "texto": "El solicitante no debera registrar creditos castigados ni operaciones vigentes en mora superior a 90 dias con la institucion.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-1.8",
+      "seccion": "1.8 Elegibilidad del solicitante",
+      "categoria": "elegibilidad",
+      "texto": "Las personas juridicas deberan contar con patente de comercio vigente y registro activo ante la Superintendencia de Administracion Tributaria.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-2.3",
+      "seccion": "2.3 Capacidad de pago",
+      "categoria": "capacidad_pago",
+      "texto": "La razon de endeudamiento, calculada como pasivos totales entre activos totales, no podra exceder 0.65 para solicitantes sin garantia hipotecaria.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-2.7",
+      "seccion": "2.7 Capacidad de pago",
+      "categoria": "capacidad_pago",
+      "texto": "La cobertura de servicio de deuda no podra ser inferior a 1.25 veces, considerando la cuota del nuevo credito.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-2.9",
+      "seccion": "2.9 Capacidad de pago",
+      "categoria": "capacidad_pago",
+      "texto": "El margen neto minimo requerido es 5 por ciento para los sectores comercio y servicios, y 3 por ciento para el sector agropecuario en razon de su estacionalidad.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-2.11",
+      "seccion": "2.11 Capacidad de pago",
+      "categoria": "excepcion",
+      "texto": "Para negocios del sector agropecuario que acrediten temporada de cosecha declarada, el margen neto minimo de la politica 2.9 podra calcularse como promedio de los ultimos 24 meses en lugar de los ultimos 12 meses.",
+      "severidad": "informativa"
+    },
+    {
+      "id": "POL-3.4",
+      "seccion": "3.4 Garantias",
+      "categoria": "garantia",
+      "texto": "Solicitantes con score de historial entre 40 y 59 puntos requeriran garantia real, prendaria o hipotecaria. Por debajo de 40 puntos la solicitud sera rechazada.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-3.6",
+      "seccion": "3.6 Garantias",
+      "categoria": "garantia",
+      "texto": "Toda operacion cuyo monto solicitado supere Q300,000.00 requerira garantia real, prendaria o hipotecaria, independientemente del score de historial del solicitante.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-3.9",
+      "seccion": "3.9 Garantias",
+      "categoria": "garantia",
+      "texto": "No se aceptaran como garantia prendaria vehiculos con antiguedad mayor a 10 anos contados desde su ano de fabricacion.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-4.1",
+      "seccion": "4.1 Montos y plazos",
+      "categoria": "monto",
+      "texto": "El monto aprobado no podra superar el 30 por ciento de las ventas anuales declaradas, con un tope maximo de Q500,000.00.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-4.4",
+      "seccion": "4.4 Montos y plazos",
+      "categoria": "monto",
+      "texto": "El plazo maximo autorizado es de 60 meses para creditos destinados a capital de trabajo y de 84 meses para creditos destinados a adquisicion de activo fijo.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-4.6",
+      "seccion": "4.6 Montos y plazos",
+      "categoria": "monto",
+      "texto": "El monto minimo otorgable bajo esta linea de credito es de Q10,000.00.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-4.9",
+      "seccion": "4.9 Montos y plazos",
+      "categoria": "excepcion",
+      "texto": "Solicitantes con score de historial igual o superior a 90 puntos y garantia hipotecaria podran exceder el limite del 30 por ciento de ventas anuales de la politica 4.1 hasta un maximo de 40 por ciento, manteniendo vigente el tope absoluto de Q500,000.00.",
+      "severidad": "informativa"
+    },
+    {
+      "id": "POL-5.1",
+      "seccion": "5.1 Sectores restringidos",
+      "categoria": "sector",
+      "texto": "No se otorgaran creditos a negocios cuya actividad principal se encuentre en la lista de sectores restringidos vigente.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-5.4",
+      "seccion": "5.4 Sectores restringidos",
+      "categoria": "sector",
+      "texto": "La lista de sectores restringidos vigente incluye: juegos de azar y apuestas, comercializacion de criptoactivos no regulados, fabricacion o venta de armas, y comercio de especies protegidas.",
+      "severidad": "informativa"
+    },
+    {
+      "id": "POL-5.7",
+      "seccion": "5.7 Sectores restringidos",
+      "categoria": "sector",
+      "texto": "Los solicitantes del sector transporte cuya actividad sea carga pesada deberan acreditar poliza de seguro vigente sobre la unidad como condicion adicional de elegibilidad.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-6.2",
+      "seccion": "6.2 Niveles de autorizacion",
+      "categoria": "autorizacion",
+      "texto": "Toda operacion superior a Q250,000.00 requerira autorizacion de comite, independientemente del resultado del analisis financiero.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-6.5",
+      "seccion": "6.5 Niveles de autorizacion",
+      "categoria": "autorizacion",
+      "texto": "Las solicitudes de empresas con menos de 36 meses de operacion y monto solicitado superior a Q150,000.00 requeriran autorizacion de comite aunque no superen el umbral de Q250,000.00 de la politica 6.2.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-6.8",
+      "seccion": "6.8 Niveles de autorizacion",
+      "categoria": "autorizacion",
+      "texto": "Las solicitudes con score de historial entre 60 y 69 puntos requeriran revision de un segundo analista antes de emitir el dictamen final.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-7.3",
+      "seccion": "7.3 Excepciones",
+      "categoria": "excepcion",
+      "texto": "Se admitira una razon de endeudamiento de hasta 0.75 cuando el solicitante acredite mas de 60 meses de operacion y un score de historial igual o superior a 80 puntos.",
+      "severidad": "informativa"
+    },
+    {
+      "id": "POL-7.6",
+      "seccion": "7.6 Excepciones",
+      "categoria": "excepcion",
+      "texto": "Los solicitantes que acrediten al menos dos creditos previos con la institucion, cancelados sin registro de mora, podran reducir el requisito de antiguedad minima de la politica 1.2 a 12 meses continuos de operacion.",
+      "severidad": "informativa"
+    },
+    {
+      "id": "POL-8.1",
+      "seccion": "8.1 Documentacion",
+      "categoria": "documentacion",
+      "texto": "Toda solicitud debera incluir estados financieros de al menos los ultimos dos ejercicios fiscales. Si el solicitante no cuenta con ellos, la solicitud se escala a comite para evaluacion documental alterna.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-9.1",
+      "seccion": "9.1 Tasas de interes",
+      "categoria": "tasa",
+      "texto": "La tasa de interes anual aplicable se determina segun banda de riesgo: riesgo bajo 14 por ciento, riesgo medio 18 por ciento, riesgo alto 24 por ciento, sujeto a aprobacion de comite en este ultimo caso.",
+      "severidad": "informativa"
+    },
+    {
+      "id": "POL-9.3",
+      "seccion": "9.3 Refinanciamiento",
+      "categoria": "refinanciamiento",
+      "texto": "No se otorgaran refinanciamientos antes de cumplidos 12 meses de vigencia del credito anterior con la institucion.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-10.1",
+      "seccion": "10.1 Moneda",
+      "categoria": "moneda",
+      "texto": "Los creditos se otorgan unicamente en quetzales. No se tramitaran solicitudes denominadas en moneda extranjera.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-10.4",
+      "seccion": "10.4 Comportamiento crediticio",
+      "categoria": "capacidad_pago",
+      "texto": "El solicitante con mora reportada en el buro de credito durante los ultimos 6 meses no es elegible, salvo que dicha mora sea inferior a Q1,000.00 y se encuentre regularizada al momento de la solicitud.",
+      "severidad": "bloqueante"
+    },
+    {
+      "id": "POL-11.2",
+      "seccion": "11.2 Destino de fondos",
+      "categoria": "destino_fondos",
+      "texto": "El destino de fondos declarado debe corresponder a una categoria de uso reconocida, tal como capital de trabajo, adquisicion de activo fijo o remodelacion. No se financiaran fines especulativos ni de consumo personal.",
+      "severidad": "bloqueante"
+    }
+  ],
+  "_notas_diseno": {
+    "excepciones_parciales": [
+      "POL-7.3 modifica parcialmente el limite de POL-2.3 (razon de endeudamiento 0.65 -> 0.75 bajo condiciones).",
+      "POL-2.11 modifica parcialmente el calculo del margen neto de POL-2.9 (ventana de 12 a 24 meses) para agropecuario.",
+      "POL-4.9 modifica parcialmente el tope porcentual de POL-4.1 (30% -> 40% de ventas) bajo condiciones, manteniendo el tope absoluto.",
+      "POL-7.6 modifica parcialmente el requisito de antiguedad de POL-1.2 (24 -> 12 meses) para clientes recurrentes."
+    ],
+    "situacion_no_cubierta_deliberadamente": "Ninguna politica cubre el caso de una solicitud cuyo destino_fondos sea 'fusion o adquisicion de otra empresa' (compra de otro negocio). No hay regla de monto, plazo ni elegibilidad especifica para ese destino, por lo que debe activarse la ruta de ESCALADO_A_COMITE por ausencia de politica aplicable (ver caso de evaluacion 5.3.6)."
+  }
+}

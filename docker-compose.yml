@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: originacion_pg
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: originacion
+      POSTGRES_PASSWORD: originacion_dev
+      POSTGRES_DB: originacion_credito
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./data/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+
+volumes:
+  pgdata:

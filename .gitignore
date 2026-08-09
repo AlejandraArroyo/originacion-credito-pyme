@@ -1,0 +1,21 @@
+# .NET
+backend/**/bin/
+backend/**/obj/
+*.user
+
+# Node / React / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Secretos / entorno
+.env
+.env.*
+appsettings.Development.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vs/
+.vscode/
