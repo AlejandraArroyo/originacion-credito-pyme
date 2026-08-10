@@ -37,4 +37,15 @@ public class DictamenesController : ControllerBase
         var metricas = await _metricasRepositorio.ObtenerMetricasAsync();
         return Ok(metricas);
     }
+
+    [HttpPost("{id}/confirmar")]
+    public async Task<IActionResult> Confirmar(Guid id, [FromQuery] string confirmadoPor = "analista")
+    {
+        var resultado = await _dictamenRepositorio.ConfirmarDictamenAsync(id, confirmadoPor);
+        if (!resultado.Exitoso)
+        {
+            return BadRequest(resultado);
+        }
+        return Ok(resultado);
+    }
 }

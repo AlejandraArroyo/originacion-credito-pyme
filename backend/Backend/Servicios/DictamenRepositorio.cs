@@ -172,4 +172,29 @@ public class DictamenRepositorio
         }
         return null;
     }
+
+    public async Task<ResultadoRegistro> ConfirmarDictamenAsync(Guid idDictamen, string confirmadoPor)
+    {
+        await using var conn = new NpgsqlConnection(_connectionString);
+        await conn.OpenAsync();
+
+        await using var cmd = new NpgsqlCommand(@"
+            UPDATE dictamenes
+            SET estado = 'CONFIRMADO', confirmado_en = now(), confirmado_por = @confirmadoPor
+            WHERE id_dictamen = @id AND estado IN ('BORRADOR', 'PENDIENTE_AUTORIZACION')
+            RETURNING estado", conn);
+
+        cmd.Parameters.AddWithValue("id", idDictamen);
+        cmd.Parameters.AddWithValue("confirmadoPor", confirmadoPor);
+
+        var estadoResultante = await cmd.ExecuteScalarAsync() as string;
+
+        if (estadoResultante is null)
+        {
+            return new ResultadoRegistro(false, null, null,
+                new List<string> { "El dictamen no existe o ya no esta en un estado confirmable (BORRADOR/PENDIENTE_AUTORIZACION)." });
+        }
+
+        return new ResultadoRegistro(true, idDictamen, estadoResultante, new List<string>());
+    }
 }
