@@ -20,6 +20,14 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader());
 });
 
+builder.Services
+    .AddMcpServer(options =>
+    {
+        options.ServerInfo = new() { Name = "OriginacionCreditoPyME", Version = "1.0.0" };
+    })
+    .WithHttpTransport()
+    .WithTools<Backend.Servicios.HerramientasAgente>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -32,5 +40,6 @@ app.UseHttpsRedirection();
 app.UseCors("frontend");
 app.UseAuthorization();
 app.MapControllers();
+app.MapMcp("/mcp");
 
 app.Run();
