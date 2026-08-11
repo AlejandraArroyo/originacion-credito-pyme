@@ -111,6 +111,16 @@ function VistaChat() {
     setHerramientaActual(null);
   }
 
+  function limpiarChat() {
+    if (generando) return;
+    setMensajes([]);
+    setDictamen(null);
+    setRegistro(null);
+    setConfirmado(false);
+    setHerramientaActual(null);
+    setEntrada("");
+  }
+
   async function confirmarDictamen() {
     if (!registro?.idDictamen) return;
     const res = await fetch(`${BACKEND_URL}/api/Dictamenes/${registro.idDictamen}/confirmar?confirmadoPor=analista`, {
@@ -124,89 +134,137 @@ function VistaChat() {
     }
   }
 
+  function traducirError(mensaje: string): string {
+    if (mensaje.includes("politicas_citadas debe tener al menos 1 elemento")) {
+      return "El agente no citó ninguna política que respalde esta decisión. Pídele de nuevo el análisis, indicando explícitamente que cite la política exacta que aplica.";
+    }
+    if (mensaje.includes("G2")) {
+      return "Los indicadores del dictamen no coinciden con el cálculo más reciente del sistema. Vuelve a pedir el análisis para recalcular con datos actualizados.";
+    }
+    if (mensaje.includes("G3") || mensaje.includes("Rechazado por base de datos")) {
+      return "El monto recomendado no cumple con los topes de política vigentes. Revisa el monto solicitado contra el límite permitido.";
+    }
+    if (mensaje.toLowerCase().includes("decision fuera del enum") || mensaje.toLowerCase().includes("nivel_riesgo fuera del enum")) {
+      return "El agente devolvió un valor de decisión o riesgo no reconocido por el sistema. Vuelve a intentar el análisis.";
+    }
+    return mensaje;
+  }
+
   return (
-    <div style={{ display: "flex", height: "100%", fontFamily: "sans-serif" }}>
-      <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: "1rem", borderRight: "1px solid #ccc" }}>
-        <h2>Asistente de Originación</h2>
-        <div style={{ flex: 1, overflowY: "auto", marginBottom: "1rem" }}>
+    <div className="chat-shell">
+      <div className="chat-col">
+        <div className="chat-col-header">
+          <h2>Asistente de Originación</h2>
+          <button className="btn" onClick={limpiarChat} disabled={generando}>
+            Nuevo análisis
+          </button>
+        </div>
+
+        <div className="messages">
           {mensajes.map((m, i) => (
-            <div key={i} style={{ marginBottom: "0.75rem", textAlign: m.rol === "usuario" ? "right" : "left" }}>
-              <div
-                style={{
-                  display: "inline-block",
-                  padding: "0.5rem 0.75rem",
-                  borderRadius: 8,
-                  background: m.rol === "usuario" ? "#dbeafe" : "#f3f4f6",
-                  maxWidth: "80%",
-                  whiteSpace: "pre-wrap",
-                }}
-              >
+            <div key={i} className={`msg-row ${m.rol}`}>
+              <div className="msg-bubble">
                 {m.texto || (generando && i === mensajes.length - 1 ? "..." : "")}
               </div>
             </div>
           ))}
           {herramientaActual && (
-            <div style={{ fontSize: "0.85rem", color: "#666" }}>
-              Ejecutando herramienta: <code>{herramientaActual}</code>...
+            <div className="tool-indicator">
+              <span className="dot" />
+              Ejecutando <code>{herramientaActual}</code>
             </div>
           )}
         </div>
-        <div style={{ display: "flex", gap: "0.5rem" }}>
+
+        <div className="chat-input-row">
           <input
             value={entrada}
             onChange={(e) => setEntrada(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && enviarMensaje()}
             placeholder="Analiza la solicitud <uuid>..."
-            style={{ flex: 1, padding: "0.5rem" }}
             disabled={generando}
           />
           {generando ? (
-            <button onClick={cancelar} style={{ padding: "0.5rem 1rem" }}>Cancelar</button>
+            <button className="btn btn-danger" onClick={cancelar}>Cancelar</button>
           ) : (
-            <button onClick={enviarMensaje} style={{ padding: "0.5rem 1rem" }}>Enviar</button>
+            <button className="btn btn-primary" onClick={enviarMensaje}>Enviar</button>
           )}
         </div>
       </div>
 
-      <div style={{ width: 420, padding: "1rem", overflowY: "auto" }}>
+      <div className="dictamen-col">
         <h2>Panel de Dictamen</h2>
-        {!dictamen && <p style={{ color: "#888" }}>Esperando análisis...</p>}
+        {!dictamen && <p className="dictamen-empty">Esperando análisis...</p>}
         {dictamen && (
           <div>
-            <p><strong>Decisión:</strong> {dictamen.decision}</p>
-            <p><strong>Monto recomendado:</strong> {dictamen.montoRecomendado ? `Q${dictamen.montoRecomendado}` : "N/A"}</p>
-            <p><strong>Plazo:</strong> {dictamen.plazoRecomendadoMeses ?? "N/A"} meses</p>
-            <p><strong>Nivel de riesgo:</strong> {dictamen.nivelRiesgo}</p>
-            <p><strong>Confianza:</strong> {dictamen.confianza}</p>
-            <p><strong>Requiere autorización humana:</strong> {dictamen.requiereAutorizacionHumana ? "Sí" : "No"}</p>
+            {dictamen.decision && (
+              <div className={`decision-pill ${dictamen.decision.toLowerCase()}`}>
+                {dictamen.decision.replace(/_/g, " ")}
+              </div>
+            )}
 
-            <h3>Políticas citadas</h3>
-            <ul>
-              {dictamen.politicasCitadas?.map((c, i) => (
-                <li key={i}>
-                  <strong>{c.idPolitica}</strong> ({c.seccion})<br />
-                  <span style={{ fontSize: "0.85rem" }}>{c.textoLiteral}</span>
-                </li>
-              ))}
-            </ul>
+            <div className="dictamen-grid">
+              <div>
+                <div className="field-label">Monto recomendado</div>
+                <div className="field-value">
+                  {dictamen.montoRecomendado ? `Q${dictamen.montoRecomendado.toLocaleString()}` : "N/A"}
+                </div>
+              </div>
+              <div>
+                <div className="field-label">Plazo</div>
+                <div className="field-value">{dictamen.plazoRecomendadoMeses ?? "N/A"} meses</div>
+              </div>
+              <div>
+                <div className="field-label">Nivel de riesgo</div>
+                <div className="field-value">{dictamen.nivelRiesgo}</div>
+              </div>
+              <div>
+                <div className="field-label">Confianza</div>
+                <div className="field-value">{dictamen.confianza}</div>
+              </div>
+              <div style={{ gridColumn: "1 / -1" }}>
+                <div className="field-label">Requiere autorización humana</div>
+                <div className="field-value">{dictamen.requiereAutorizacionHumana ? "Sí" : "No"}</div>
+              </div>
+            </div>
 
-            <h3>Motivos</h3>
-            <ul>
+            <div className="dictamen-section-title">Políticas citadas</div>
+            {dictamen.politicasCitadas?.map((c, i) => (
+              <div key={i} className="cita-politica">
+                <span className="cita-tag">{c.idPolitica}</span>
+                <span className="cita-seccion">{c.seccion}</span>
+                <blockquote>{c.textoLiteral}</blockquote>
+              </div>
+            ))}
+
+            <div className="dictamen-section-title">Motivos</div>
+            <ul className="motivos-list">
               {dictamen.motivos?.map((m, i) => <li key={i}>{m}</li>)}
             </ul>
 
-            {registro && (
-              <div style={{ marginTop: "1rem", padding: "0.75rem", background: "#f9fafb", borderRadius: 8 }}>
-                <p><strong>Estado del registro:</strong> {registro.estado}</p>
-                {registro.errores.length > 0 && (
-                  <p style={{ color: "red" }}>Errores: {registro.errores.join(", ")}</p>
-                )}
+            {registro && registro.exitoso && (
+              <div className="registro-box">
+                <div className="estado-label">Estado del registro</div>
+                <div className="estado-value">{registro.estado}</div>
                 {registro.exitoso && !confirmado && (
-                  <button onClick={confirmarDictamen} style={{ padding: "0.5rem 1rem", marginTop: "0.5rem" }}>
+                  <button className="btn btn-primary" onClick={confirmarDictamen}>
                     Confirmar dictamen
                   </button>
                 )}
-                {confirmado && <p style={{ color: "green" }}>✓ Dictamen confirmado</p>}
+                {confirmado && <p className="confirmado-check">✓ Dictamen confirmado</p>}
+              </div>
+            )}
+
+            {registro && !registro.exitoso && (
+              <div className="alerta-fallo">
+                <div className="alerta-fallo-titulo">
+                  ⚠ El dictamen no se registró
+                </div>
+                <ul className="alerta-fallo-lista">
+                  {registro.errores.map((e, i) => (
+                    <li key={i}>{traducirError(e)}</li>
+                  ))}
+                </ul>
               </div>
             )}
           </div>

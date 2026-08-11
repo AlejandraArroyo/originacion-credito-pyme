@@ -7,6 +7,7 @@ builder.Services.AddScoped<Backend.Servicios.MetricasRepositorio>();
 builder.Services.AddScoped<Backend.Servicios.AgenteFactory>();
 builder.Services.AddScoped<Backend.Servicios.HerramientasAgente>();
 builder.Services.AddScoped<Backend.Servicios.ObservabilidadRepositorio>();
+builder.Services.AddScoped<Backend.Servicios.EvaluacionRepositorio>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
