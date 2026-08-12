@@ -41,4 +41,11 @@ public class SolicitudesController : ControllerBase
         }
         return Ok(indicadores);
     }
+
+    [HttpGet("muestra-demo")]
+    public async Task<IActionResult> MuestraDemo()
+    {
+        var muestra = await _solicitudRepositorio.ObtenerMuestraParaDemoAsync();
+        return Ok(muestra);
+    }
 }

@@ -12,6 +12,14 @@ public record MetricasCartera(
     long TotalDictamenes
 );
 
+public record DictamenRechazado(
+    Guid IdDictamen,
+    Guid IdSolicitud,
+    string NombreEmpresa,
+    List<string> Motivos,
+    DateTime CreadoEn
+);
+
 public class MetricasRepositorio
 {
     private readonly string _connectionString;
@@ -63,5 +71,39 @@ public class MetricasRepositorio
             : 0m;
 
         return new MetricasCartera(porEstado, montoPromedio, tasaEscalamiento, totalDictamenes);
+    }
+
+    public async Task<List<DictamenRechazado>> ObtenerRechazadosAsync(int limite = 20)
+    {
+        var resultado = new List<DictamenRechazado>();
+
+        await using var conn = new NpgsqlConnection(_connectionString);
+        await conn.OpenAsync();
+
+        await using var cmd = new NpgsqlCommand(@"
+            SELECT d.id_dictamen, d.id_solicitud, s.nombre_empresa, d.motivos, d.creado_en
+            FROM dictamenes d
+            JOIN solicitudes s ON s.id_solicitud = d.id_solicitud
+            WHERE d.decision = 'RECHAZADO'
+            ORDER BY d.creado_en DESC
+            LIMIT @limite", conn);
+        cmd.Parameters.AddWithValue("limite", limite);
+
+        await using var reader = await cmd.ExecuteReaderAsync();
+        while (await reader.ReadAsync())
+        {
+            var motivosJson = reader.GetString(3);
+            var motivos = System.Text.Json.JsonSerializer.Deserialize<List<string>>(motivosJson) ?? new List<string>();
+
+            resultado.Add(new DictamenRechazado(
+                reader.GetGuid(0),
+                reader.GetGuid(1),
+                reader.GetString(2),
+                motivos,
+                reader.GetDateTime(4)
+            ));
+        }
+
+        return resultado;
     }
 }

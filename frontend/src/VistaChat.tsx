@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const BACKEND_URL = "http://localhost:5251";
 
@@ -26,6 +26,8 @@ type DictamenRegistrado = {
   errores: string[];
 };
 
+type DemoSolicitud = { idSolicitud: string; nombreEmpresa: string; etiqueta: string };
+
 function VistaChat() {
   const [mensajes, setMensajes] = useState<Mensaje[]>([]);
   const [entrada, setEntrada] = useState("");
@@ -34,7 +36,21 @@ function VistaChat() {
   const [registro, setRegistro] = useState<DictamenRegistrado | null>(null);
   const [herramientaActual, setHerramientaActual] = useState<string | null>(null);
   const [confirmado, setConfirmado] = useState(false);
+  const [muestra, setMuestra] = useState<DemoSolicitud[]>([]);
   const abortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    fetch(`${BACKEND_URL}/api/Solicitudes/muestra-demo`)
+      .then((r) => (r.ok ? r.json() : []))
+      .then(setMuestra)
+      .catch(() => setMuestra([]));
+  }, []);
+
+  function elegirSolicitud(s: DemoSolicitud) {
+    setEntrada(
+      `Analiza la solicitud ${s.idSolicitud} y dime si debería aprobarse, citando la política exacta que aplica.`
+    );
+  }
 
   async function enviarMensaje() {
     if (!entrada.trim() || generando) return;
@@ -138,6 +154,9 @@ function VistaChat() {
     if (mensaje.includes("politicas_citadas debe tener al menos 1 elemento")) {
       return "El agente no citó ninguna política que respalde esta decisión. Pídele de nuevo el análisis, indicando explícitamente que cite la política exacta que aplica.";
     }
+    if (mensaje.includes("Rechazado por verificacion de capacidad de pago")) {
+      return "El sistema detectó que la cobertura de servicio de deuda real no alcanza el mínimo exigido, aunque el agente haya concluido que debía aprobarse. Vuelve a pedir el análisis para que lo reconsidere.";
+    }
     if (mensaje.includes("G2")) {
       return "Los indicadores del dictamen no coinciden con el cálculo más reciente del sistema. Vuelve a pedir el análisis para recalcular con datos actualizados.";
     }
@@ -148,6 +167,17 @@ function VistaChat() {
       return "El agente devolvió un valor de decisión o riesgo no reconocido por el sistema. Vuelve a intentar el análisis.";
     }
     return mensaje;
+  }
+
+  function nombreAmigable(herramienta: string): string {
+    const nombres: Record<string, string> = {
+      obtener_solicitud: "Consultando la solicitud",
+      calcular_indicadores: "Calculando indicadores financieros",
+      buscar_politica: "Buscando la política aplicable",
+      registrar_dictamen: "Registrando el dictamen",
+      metricas_cartera: "Consultando métricas de cartera",
+    };
+    return nombres[herramienta] ?? herramienta;
   }
 
   return (
@@ -171,17 +201,41 @@ function VistaChat() {
           {herramientaActual && (
             <div className="tool-indicator">
               <span className="dot" />
-              Ejecutando <code>{herramientaActual}</code>
+              {nombreAmigable(herramientaActual)}...
             </div>
           )}
         </div>
+
+        {muestra.length > 0 && (
+          <div style={{ display: "flex", gap: "0.4rem", flexWrap: "wrap", marginBottom: "0.6rem" }}>
+            {muestra.map((s) => (
+              <button
+                key={s.idSolicitud}
+                onClick={() => elegirSolicitud(s)}
+                disabled={generando}
+                title={s.etiqueta}
+                style={{
+                  fontSize: "0.75rem",
+                  padding: "0.3rem 0.6rem",
+                  borderRadius: 999,
+                  border: "1px solid var(--linea)",
+                  background: "var(--superficie)",
+                  color: "var(--texto-mudo)",
+                  cursor: generando ? "not-allowed" : "pointer",
+                }}
+              >
+                {s.nombreEmpresa}
+              </button>
+            ))}
+          </div>
+        )}
 
         <div className="chat-input-row">
           <input
             value={entrada}
             onChange={(e) => setEntrada(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && enviarMensaje()}
-            placeholder="Analiza la solicitud <uuid>..."
+            placeholder="Elige una solicitud arriba, o pega un id_solicitud..."
             disabled={generando}
           />
           {generando ? (

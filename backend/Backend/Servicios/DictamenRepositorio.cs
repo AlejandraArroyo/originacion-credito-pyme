@@ -73,10 +73,35 @@ public class DictamenRepositorio
                 new List<string> { "G2: los indicadores del dictamen no coinciden con calcular_indicadores" });
         }
 
+      
+        const decimal CoberturaMinimaPolitica = 1.25m;
+        if (decisionFinal == "APROBADO" &&
+            indicadoresRecalculados.CoberturaServicioDeuda is decimal cobertura &&
+            cobertura < CoberturaMinimaPolitica)
+        {
+            return new ResultadoRegistro(false, null, null,
+                new List<string> {
+                    $"Rechazado por verificacion de capacidad de pago: cobertura de servicio de deuda " +
+                    $"recalculada es {cobertura:0.0000}, por debajo del minimo de {CoberturaMinimaPolitica} " +
+                    $"que exige POL-2.7. La decision APROBADO no es coherente con este indicador."
+                });
+        }
+
         var umbralAutorizacion = await ObtenerUmbralAutorizacionAsync();
-        if ((montoFinal is decimal monto && monto > umbralAutorizacion) || dictamen.NivelRiesgo == "ALTO")
+
+        
+        if (decisionFinal == "APROBADO" &&
+            ((montoFinal is decimal monto && monto > umbralAutorizacion) || dictamen.NivelRiesgo == "ALTO"))
         {
             requiereAutorizacionFinal = true;
+        }
+        else if (decisionFinal == "ESCALADO_A_COMITE")
+        {
+            requiereAutorizacionFinal = true;
+        }
+        else if (decisionFinal == "RECHAZADO")
+        {
+            requiereAutorizacionFinal = false;
         }
 
         var estadoFinal = requiereAutorizacionFinal ? "PENDIENTE_AUTORIZACION" : "BORRADOR";

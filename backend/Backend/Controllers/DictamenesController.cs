@@ -38,6 +38,13 @@ public class DictamenesController : ControllerBase
         return Ok(metricas);
     }
 
+    [HttpGet("rechazados")]
+    public async Task<IActionResult> Rechazados([FromQuery] int limite = 20)
+    {
+        var rechazados = await _metricasRepositorio.ObtenerRechazadosAsync(limite);
+        return Ok(rechazados);
+    }
+
     [HttpPost("{id}/confirmar")]
     public async Task<IActionResult> Confirmar(Guid id, [FromQuery] string confirmadoPor = "analista")
     {
